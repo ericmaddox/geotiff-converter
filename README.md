@@ -32,6 +32,7 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
+# Open your browser to http://127.0.0.1:8050
 ```
 
 ## Usage
