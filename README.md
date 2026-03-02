@@ -19,7 +19,7 @@ A web-based tool for converting PDF, DOCX, and image files into georeferenced Ge
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/geo-tif-converter.git
+git clone https://github.com/ericmaddox/geotiff-converter.git
 cd geo-tif-converter
 
 # Create and activate a virtual environment
