@@ -1,0 +1,24 @@
+#drop-zone {
+  border: 2px dashed #5dade2;
+  border-radius: 12px;
+  padding: 40px 20px;
+  cursor: pointer;
+  background-color: rgba(93, 173, 226, 0.05);
+  text-align: center;
+  transition: border-color 0.2s, background-color 0.2s, opacity 0.2s;
+}
+
+#drop-zone:hover {
+  border-color: #3498db;
+  background-color: rgba(93, 173, 226, 0.1);
+}
+
+#drop-zone.drag-over {
+  border-color: #2ecc71 !important;
+  background-color: rgba(46, 204, 113, 0.12) !important;
+}
+
+#drop-zone.uploading {
+  opacity: 0.5;
+  pointer-events: none;
+}
